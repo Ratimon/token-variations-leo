@@ -1,7 +1,8 @@
-// The 'token_variations_leo.aleo' program.
 program token_variations_leo.aleo;
 
-function hello:
+
+
+function main:
     input r0 as u32.public;
     input r1 as u32.private;
     add r0 r1 into r2;
