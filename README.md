@@ -20,13 +20,21 @@ To initiate a new project
 leo new token_variations_leo
 ```
 
-To mint the token
+To create new a private key:
+
+```bash
+leo account new
+```
+Alternatively, go to [`https://aleo.tools/account`](https://aleo.tools/account)
+
+
+To mint the token:
 
 ```bash
 leo run mint 100u32
 ```
 
-To transfer the token
+To transfer the token:
 
 ```bash
 leo run transfer aleo19mh3ypqge6utk5jqypf5a3nz6mj63u44c2mtemjnja6kx5524u8suz44hp 10u32 "{
